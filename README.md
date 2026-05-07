@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/27463728/README.md)
 # CSCI 3329 — Homework 3 Report
 
 ## 1. Dataset

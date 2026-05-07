@@ -1,0 +1,39 @@
+{
+  "dataset": "QSAR Bioconcentration Classes",
+  "original_shape": [
+    779,
+    14
+  ],
+  "post_dropna_shape": [
+    779,
+    14
+  ],
+  "class_distribution": {
+    "1": 460,
+    "2": 64,
+    "3": 255
+  },
+  "features_used": [
+    "nHM",
+    "piPC09",
+    "PCD",
+    "X2Av",
+    "MLOGP",
+    "ON1V",
+    "N-072",
+    "B02[C-N]",
+    "F04[C-O]"
+  ],
+  "dropped_columns": [
+    "CAS",
+    "SMILES",
+    "Set",
+    "logBCF"
+  ],
+  "target": "Class",
+  "random_state": 17342,
+  "part2_cv": "RepeatedKFold(n_splits=10, n_repeats=10), reduced from 100 repeats due runtime",
+  "part3_method": "greedy forward selection",
+  "part3_selection_cv": "KFold(n_splits=5, shuffle=True)",
+  "part3_final_cv": "RepeatedKFold(n_splits=10, n_repeats=10)"
+}
